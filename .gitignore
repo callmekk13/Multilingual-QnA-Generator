@@ -1,0 +1,33 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Google/Colab
+.ipynb_checkpoints/
+
+# Generated outputs
+outputs/*.xlsx
+outputs/*.xls
+
+# Temporary files
+*.tmp
+*.temp
+
+# OS files
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
